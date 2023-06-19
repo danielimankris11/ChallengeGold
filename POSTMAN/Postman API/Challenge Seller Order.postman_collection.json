@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "3caed258-eb5a-4192-9334-2a59d5ae3777",
+		"name": "Challenge Seller Order",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Seller Order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Status",
+							"value": "accepted",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/order?status=accepted",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"order"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "accepted"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

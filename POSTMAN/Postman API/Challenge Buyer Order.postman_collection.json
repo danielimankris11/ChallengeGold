@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "27dcef2b-8717-4ee8-aabb-bc5075904c53",
+		"name": "Challenge Buyer Order",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Buyer Order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyMUBnbWFpbC5jb20iLCJpYXQiOjE2NjE1MjcwMzh9.36r4oXCD_fODElTJbc7rQhREKVAFEXLHfq1ypDIWHuE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"product_id\": 1378,\r\n  \"bid_price\": 150000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/order",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buyer Order",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/order",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buyer Order By ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/order/1",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"order",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

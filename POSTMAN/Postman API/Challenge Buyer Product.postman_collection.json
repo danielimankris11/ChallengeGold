@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "9d5f5376-b8a0-41df-83fe-9f8b6e833549",
+		"name": "Challenge Buyer Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Buyer Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {}
+				},
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/product?status=Available&category_id=1&search=sepatu&page=1&per_page=2",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"product"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "Available"
+						},
+						{
+							"key": "category_id",
+							"value": "1"
+						},
+						{
+							"key": "search",
+							"value": "sepatu"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buyer Product ByID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

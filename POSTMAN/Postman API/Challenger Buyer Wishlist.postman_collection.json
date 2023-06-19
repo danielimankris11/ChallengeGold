@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "58fbb105-6655-4934-8f1d-308a378d8405",
+		"name": "Challenger Buyer Wishlist",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Buyer Wishlist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "product_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/wishlist",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buyer Wishlist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/wishlist",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buyer Wishlist ByID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/wishlist/1690",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"wishlist",
+						"1690"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Buyer Wishlist",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/buyer/wishlist/1694",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"buyer",
+						"wishlist",
+						"1694"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

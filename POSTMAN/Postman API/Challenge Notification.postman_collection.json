@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d83f449d-e285-4a93-a76e-4781d0d40550",
+		"name": "Challenge Notification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Notification",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/notification?notification_type=buyer",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"notification"
+					],
+					"query": [
+						{
+							"key": "notification_type",
+							"value": "buyer"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

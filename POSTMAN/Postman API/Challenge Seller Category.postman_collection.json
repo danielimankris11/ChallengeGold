@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "5507f1ed-b16b-4b9a-9c01-632b7d3631c6",
+		"name": "Challenge Seller Category",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Seller-Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/category",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Category by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/category/1",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

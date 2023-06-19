@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "c9f29b5a-6f98-4668-9036-c6b4924ab1bc",
+		"name": "Challenge Seller Banner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Seller banner",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/banner",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"banner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Banner by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/Banner/1",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"Banner",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

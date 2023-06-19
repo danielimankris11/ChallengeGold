@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "2fd35933-9a72-4f1a-86f4-ddc113c34b53",
+		"name": "Challenge Seller-Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22740879"
+	},
+	"item": [
+		{
+			"name": "Seller Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Sepatu",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Sepatu",
+							"type": "text"
+						},
+						{
+							"key": "base_price",
+							"value": "1000000",
+							"type": "text"
+						},
+						{
+							"key": "category_ids",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "yogyakarta",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/jordan.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/product",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Product",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pa2luaWtpMTFAZ21haWwuY29tIiwiaWF0IjoxNjYxNDQyNjEwfQ.uvpVuUZzakkMVx7xtOnoBToSFh9sl_8AyRvMYLCOrRM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/product",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Product By ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pa2luaWtpMTFAZ21haWwuY29tIiwiaWF0IjoxNjYxNDQyNjEwfQ.uvpVuUZzakkMVx7xtOnoBToSFh9sl_8AyRvMYLCOrRM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/product/1372",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"product",
+						"1372"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seller Product by ID",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pa2luaWtpMTFAZ21haWwuY29tIiwiaWF0IjoxNjYxNDQyNjEwfQ.uvpVuUZzakkMVx7xtOnoBToSFh9sl_8AyRvMYLCOrRM",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/product/1372",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"product",
+						"1372"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pa2luaWtpMTFAZ21haWwuY29tIiwiaWF0IjoxNjYxNDQyNjEwfQ.uvpVuUZzakkMVx7xtOnoBToSFh9sl_8AyRvMYLCOrRM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Status",
+							"value": "Available",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/product/1372",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"product",
+						"1372"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Seller Product",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Access_token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhbmllbGJpbmFyQGdtYWlsLmNvbSIsImlhdCI6MTY2MTUyMjIzNX0.vG2nS1krmwSXX0XJ89BL8-3u9iSnHsv581b8WKPca-A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://market-final-project.herokuapp.com/seller/product/1374",
+					"protocol": "https",
+					"host": [
+						"market-final-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"seller",
+						"product",
+						"1374"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
